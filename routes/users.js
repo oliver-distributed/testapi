@@ -14,6 +14,11 @@ router.get('/', function (req, res, next) {
       age: 30,
       email: 'kazeljinlorejo@gmail.com',
     },
+    {
+      name: 'Michael Patrick Diaz',
+      age: 22,
+      email: 'michaelpatrick@gmail.com',
+    },
   ]
 
   res.json({
